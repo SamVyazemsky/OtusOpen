@@ -14,4 +14,4 @@ def test_sum():
     Если сложить 2 и 2,
     получится 4
     """
-    assert a + b == c
+    assert 2 + 2 == 4
