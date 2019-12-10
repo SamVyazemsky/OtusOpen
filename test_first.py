@@ -2,6 +2,7 @@
 import pytest
 
 
+@pytest.mark.calc
 def test_sum():
     """
     Если сложить 2 и 2,
@@ -10,6 +11,7 @@ def test_sum():
     assert 2 + 2 == 4
 
 
+@pytest.mark.calc
 def test_divizion():
     """
     1. Разделить 4 на 2
@@ -18,6 +20,7 @@ def test_divizion():
     assert 4 / 2 == 2
 
 
+@pytest.mark.calc
 def test_divizion_by_zero():
     """
     При делении на 0
