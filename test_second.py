@@ -9,9 +9,9 @@ import pytest
                              (1, 1, 4),
                              (0, 1, 1)
                          ])
-def test_sum():
+def test_sum(a, b, c):
     """
     Если сложить 2 и 2,
     получится 4
     """
-    assert 2 + 2 == 4
+    assert a + b == c
